@@ -1,0 +1,239 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6f4f0;
+}
+
+
+/* Header */
+
+
+/* 
+header {
+    background-color: black;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    width: 500px;
+    display: inline-block;
+}
+
+nav li:hover {
+    color: grey;
+} */
+
+
+
+/* Billboard Image */
+
+
+
+.jumbotron {
+    position: relative;
+    bottom: 50px;
+    background-image: url("../Images/Header_Planet.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100%;
+    min-width: 1920px;
+}
+
+.container {
+    color: white;
+    position: relative;
+    width: 500px;
+    left: 200px;
+    top: 350px;
+}
+
+.container h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.container h2 {
+    position: relative;
+    bottom: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.btn-main {
+    background-color: #333;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 1.3px;
+    padding: 16px 40px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 300px;
+}
+
+
+/* Main Content */
+
+
+
+#menu {
+    position: static;
+    background-color: #f6f4f0;
+    padding: 50px 0px;
+    height: 300px;
+
+}
+
+.wave_top img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    bottom: 290px;
+    min-width: 1920px;
+    min-height: 300px;
+}
+
+.wave_bottom {
+    position: relative;
+    background-color: #f6f4f0;
+    bottom: 20px;
+}
+
+.wave_bottom img {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    top: 250px;
+    min-width: 1920px;
+    min-height: 300px;
+}
+
+#titles {
+    background-color: #f6f4f0;
+    text-align: center;
+    padding: 20px;
+}
+
+#titles ul {
+    display: flex;
+    justify-content: center;
+}
+
+#titles li {
+    display: inline-block;
+    position: relative;
+    bottom: 200px;
+    color: white;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    width: 500px;
+    height: 500px;
+    margin: 20px 150px;
+
+}
+
+#titles li h1 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+#titles li p {
+    position: relative;
+    bottom: 20px;
+    text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+#titles li a {
+    position: relative;
+    top: 300px;
+    width: 300px;
+}
+
+
+/* Contact Content */
+
+
+#contactjumbotron {
+    height: 1200px;
+    min-width: 1920px;
+    min-height: 400px;
+}
+
+#contactjumbotron img {
+    image-rendering: optimizeQuality;
+    position: fixed;
+    z-index: -1;
+    top: 100px;
+    object-fit: cover;
+}
+
+/* Footer */
+
+
+
+footer {
+    position: relative;
+    top: 1100px;
+    background-color: #f6f4f0;
+    color: black;
+    padding: 15px 0;
+}
+
+footer ul {
+    text-align: center;
+
+}
+
+footer li {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-weight: 1;
+}
